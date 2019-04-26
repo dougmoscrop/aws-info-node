@@ -38,6 +38,7 @@ workflows:
   version: 2
   default:
     jobs:
-      - build
+      - build:
+          context: aws-ssm-readonly
       - test:
           requires: [ 'build' ]
