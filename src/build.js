@@ -95,12 +95,14 @@ async function getEndpoints(service, regions) {
 async function getServiceInfo() {
     const services = await getServices();
 
-    const details = await Promise.all(services.map(async service => {
+    const details = [];
+
+    for (const service of services) {
         const regions = await getServiceRegions(service);
         const endpoints = await getEndpoints(service, regions);
         
-        return { service, endpoints };
-    }));
+        details.push({ service, endpoints });
+    }
  
     return details.reduce((memo, { service, endpoints }) => {
         memo[service] = { endpoints };
