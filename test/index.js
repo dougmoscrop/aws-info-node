@@ -19,3 +19,11 @@ test('endpoint() service is case-insensitive', t => {
 test('endpoint() region is case-insensitive', t => {
     t.deepEqual(info.endpoint('s3', 'US-east-1'), info.endpoint('S3', 'US-EAST-1'));
 });
+
+test('regionName() throws on unknown service', t => {
+    t.throws(() => info.regionName('unknown'), 'aws-info: unknown is not a known region short name');
+});
+
+test('regionName() region is case-insensitive', t => {
+    t.deepEqual(info.regionName('US-EAST-1'), info.regionName('us-east-1'));
+});
