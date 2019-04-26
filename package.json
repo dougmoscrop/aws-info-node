@@ -1,0 +1,36 @@
+{
+  "name": "aws-info",
+  "version": "1.0.0",
+  "description": "Pre-baked info about various AWS Services and Regions",
+  "main": "aws-info.js",
+  "scripts": {
+    "build": "node src/build.js",
+    "test": "ava",
+    "posttest": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougmoscrop/aws-info-node.git"
+  },
+  "keywords": [
+    "aws"
+  ],
+  "author": "Doug Moscrop <doug.moscrop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dougmoscrop/aws-info-node/issues"
+  },
+  "homepage": "https://github.com/dougmoscrop/aws-info-node#readme",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "aws-sdk": "^2.443.0",
+    "chunk": "0.0.2",
+    "dread": "^2.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
