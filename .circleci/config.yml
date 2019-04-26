@@ -1,44 +1,19 @@
-version: 2.0
-
-references:
-
-  workspace_root: &workspace_root
-    ./
-
-  node_container: &node_container
-    docker:
-      - image: circleci/node:8.10
-
-  attach_workspace: &attach_workspace
-    attach_workspace:
-      at: *workspace_root
+version: 2.1
 
 jobs:
-  build:
-    <<: *node_container
-    steps:
-      - checkout
-      - *attach_workspace
-      - run: npm i
-      - run: npm run build
-      - persist_to_workspace:
-          root: *workspace_root
-          paths:
-            - data.json
-            - node_modules
   test:
-    <<: *node_container
+    docker:
+      - image: circleci/node:8.10
     steps:
       - checkout
-      - *attach_workspace
+      - run: npm i
       - run: npm test
+      - run: npm run build
       - run: cmp data.tmp.json data.json
 
 workflows:
   version: 2
   default:
     jobs:
-      - build:
-          context: aws-ssm-readonly
       - test:
-          requires: [ 'build' ]
+          context: aws-ssm-readonly
