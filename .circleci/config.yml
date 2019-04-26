@@ -19,7 +19,7 @@ jobs:
     steps:
       - checkout
       - *attach_workspace
-      - run: npm ci
+      - run: npm i
       - run: npm run build
       - persist_to_workspace:
           root: *workspace_root
