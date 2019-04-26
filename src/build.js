@@ -31,20 +31,22 @@ async function getParametersByPath(path, nextToken) {
 }
 
 async function getParameters(names) {
+    const parameters = [];
+
     const chunks = chunk(names, 10);
 
-    const results = await Promise.all(chunks.map(async chunk => {
-        return retry(async () => {
+    for (const chunk of chunks) {
+        const { Parameters } = await retry(() => {
             const params = {
                 Names: chunk,
             };
-
-            const { Parameters } = await ssm.getParameters(params).promise();
-            return Parameters;
+            return ssm.getParameters(params).promise();
         });
-    }));
 
-    return [].concat(...results);
+        parameters.push(...Parameters);
+    }
+
+    return parameters;
 }
 
 async function getServiceRegions(service) {
@@ -129,12 +131,10 @@ async function getRegionInfo() {
 }
 
 async function get() {
-   const [services, regions] = await Promise.all([
-       getServiceInfo(),
-       getRegionInfo(),
-   ]);
+    const services = await getServiceInfo();
+    const regions = await getRegionInfo();
 
-   return { services, regions };
+    return { services, regions };
 }
 
 fs.writeFileSync('./data.json', '');

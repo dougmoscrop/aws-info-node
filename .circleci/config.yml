@@ -31,7 +31,6 @@ jobs:
     steps:
       - checkout
       - *attach_workspace
-      - run: npm ci
       - run: npm test
 
 workflows:
