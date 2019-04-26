@@ -137,11 +137,11 @@ async function get() {
     return { services, regions };
 }
 
-fs.writeFileSync('./data.json', '');
+fs.writeFileSync('./data.tmp.json', '');
 
 get()
     .then(result => {
-        fs.writeFileSync('./data.json', JSON.stringify(result, null, 2));
+        fs.writeFileSync('./data.tmp.json', JSON.stringify(result, null, 2));
     })
     .catch(e => {
         console.error(e);

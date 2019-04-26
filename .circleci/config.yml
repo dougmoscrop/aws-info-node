@@ -32,6 +32,7 @@ jobs:
       - checkout
       - *attach_workspace
       - run: npm test
+      - run: cmp data.tmp.json data.json
 
 workflows:
   version: 2
