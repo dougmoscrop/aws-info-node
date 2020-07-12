@@ -21,7 +21,7 @@ test('endpoint() region is case-insensitive', t => {
 });
 
 test('regionName() throws on unknown service', t => {
-    t.throws(() => info.regionName('unknown'), 'aws-info: unknown is not a known region short name');
+    t.throws(() => info.regionName('unknown'), { message: 'aws-info: unknown is not a known region short name' });
 });
 
 test('regionName() region is case-insensitive', t => {
