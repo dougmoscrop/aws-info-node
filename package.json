@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/dougmoscrop/aws-info-node#readme",
   "devDependencies": {
-    "ava": "^3.15.0",
+    "ava": "^5.2.0",
     "aws-sdk": "^2.853.0",
     "chunk": "0.0.3",
     "dread": "^2.3.0",
