@@ -4402,7 +4402,7 @@
         "ap-southeast-4": "transfer.ap-southeast-4.amazonaws.com"
       }
     },
-    "application-autoscaling": {
+    "autoscaling-plans": {
       "endpoints": {
         "ap-east-1": "autoscaling-plans.ap-east-1.amazonaws.com",
         "ap-northeast-2": "autoscaling-plans.ap-northeast-2.amazonaws.com",
@@ -4431,6 +4431,41 @@
         "us-west-1": "autoscaling-plans.us-west-1.amazonaws.com",
         "ap-southeast-3": "autoscaling-plans.ap-southeast-3.amazonaws.com",
         "ap-northeast-3": "autoscaling-plans.ap-northeast-3.amazonaws.com"
+      }
+    },
+    "application-autoscaling": {
+      "endpoints": {
+        "us-east-2": "application-autoscaling.us-east-2.amazonaws.com",
+        "us-east-1": "application-autoscaling.us-east-1.amazonaws.com",
+        "us-west-1": "application-autoscaling.us-west-1.amazonaws.com",
+        "us-west-2": "application-autoscaling.us-west-2.amazonaws.com",
+        "af-south-1": "application-autoscaling.af-south-1.amazonaws.com",
+        "ap-east-1": "application-autoscaling.ap-east-1.amazonaws.com",
+        "ap-south-2": "application-autoscaling.ap-south-2.amazonaws.com",
+        "ap-southeast-3": "application-autoscaling.ap-southeast-3.amazonaws.com",
+        "ap-southeast-4": "application-autoscaling.ap-southeast-4.amazonaws.com",
+        "ap-south-1": "application-autoscaling.ap-south-1.amazonaws.com",
+        "ap-northeast-3": "application-autoscaling.ap-northeast-3.amazonaws.com",
+        "ap-northeast-2": "application-autoscaling.ap-northeast-2.amazonaws.com",
+        "ap-southeast-1": "application-autoscaling.ap-southeast-1.amazonaws.com",
+        "ap-southeast-2": "application-autoscaling.ap-southeast-2.amazonaws.com",
+        "ap-northeast-1": "application-autoscaling.ap-northeast-1.amazonaws.com",
+        "ca-central-1": "application-autoscaling.ca-central-1.amazonaws.com",
+        "ca-west-1": "application-autoscaling.ca-west-1.amazonaws.com",
+        "eu-central-1": "application-autoscaling.eu-central-1.amazonaws.com",
+        "eu-west-1": "application-autoscaling.eu-west-1.amazonaws.com",
+        "eu-west-2": "application-autoscaling.eu-west-2.amazonaws.com",
+        "eu-south-1": "application-autoscaling.eu-south-1.amazonaws.com",
+        "eu-west-3": "application-autoscaling.eu-west-3.amazonaws.com",
+        "eu-south-2": "application-autoscaling.eu-south-2.amazonaws.com",
+        "eu-north-1": "application-autoscaling.eu-north-1.amazonaws.com",
+        "eu-central-2": "application-autoscaling.eu-central-2.amazonaws.com",
+        "il-central-1": "application-autoscaling.il-central-1.amazonaws.com",
+        "me-south-1": "application-autoscaling.me-south-1.amazonaws.com",
+        "me-central-1": "application-autoscaling.me-central-1.amazonaws.com",
+        "sa-east-1": "application-autoscaling.sa-east-1.amazonaws.com",
+        "us-gov-east-1": "application-autoscaling.us-gov-east-1.amazonaws.com",
+        "us-gov-west-1": "application-autoscaling.us-gov-west-1.amazonaws.com"
       }
     },
     "cloudwatch": {
