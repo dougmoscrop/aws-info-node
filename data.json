@@ -852,6 +852,17 @@
         "us-gov-west-1": "participant.connect.us-gov-west-1.amazonaws.com"
       }
     },
+    "cases": {
+      "endpoints": {
+        "us-east-1": "cases.us-east-1.amazonaws.com",
+        "us-west-2": "cases.us-west-2.amazonaws.com",
+        "ap-southeast-1": "cases.ap-southeast-1.amazonaws.com",
+        "ap-southeast-2": "cases.ap-southeast-2.amazonaws.com",
+        "ca-central-1": "cases.ca-central-1.amazonaws.com",
+        "eu-central-1": "cases.eu-central-1.amazonaws.com",
+        "eu-west-2": "cases.eu-west-2.amazonaws.com"
+      }
+    },
     "dynamodbstreams": {
       "endpoints": {
         "us-east-2": "streams.dynamodb.us-east-2.amazonaws.com",
@@ -904,6 +915,25 @@
         "eu-west-2": "greengrass.eu-west-2.amazonaws.com",
         "us-gov-west-1": "greengrass.us-gov-west-1.amazonaws.com",
         "us-gov-east-1": "greengrass.us-gov-east-1.amazonaws.com"
+      }
+    },
+    "greengrass-ats": {
+      "endpoints": {
+        "us-east-2": "greengrass-ats.iot.us-east-2.amazonaws.com",
+        "us-east-1": "greengrass-ats.iot.us-east-1.amazonaws.com",
+        "us-west-2": "greengrass-ats.iot.us-west-2.amazonaws.com",
+        "ap-south-1": "greengrass-ats.iot.ap-south-1.amazonaws.com",
+        "ap-northeast-2": "greengrass-ats.iot.ap-northeast-2.amazonaws.com",
+        "ap-southeast-1": "greengrass-ats.iot.ap-southeast-1.amazonaws.com",
+        "ap-southeast-2": "greengrass-ats.iot.ap-southeast-2.amazonaws.com",
+        "ap-northeast-1": "greengrass-ats.iot.ap-northeast-1.amazonaws.com",
+        "ca-central-1": "greengrass-ats.iot.ca-central-1.amazonaws.com",
+        "cn-north-1": "greengrass.ats.iot.cn-north-1.amazonaws.com.cn",
+        "eu-central-1": "greengrass-ats.iot.eu-central-1.amazonaws.com",
+        "eu-west-1": "greengrass-ats.iot.eu-west-1.amazonaws.com",
+        "eu-west-2": "greengrass-ats.iot.eu-west-2.amazonaws.com",
+        "us-gov-west-1": "greengrass-ats.iot.us-gov-west-1.amazonaws.com",
+        "us-gov-east-1": "greengrass-ats.iot.us-gov-east-1.amazonaws.com"
       }
     },
     "groundstation": {
