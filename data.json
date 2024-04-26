@@ -1065,7 +1065,13 @@
         "us-gov-west-1": "metering.marketplace.us-gov-west-1.amazonaws.com",
         "ap-northeast-3": "metering.marketplace.ap-northeast-3.amazonaws.com",
         "me-south-1": "metering.marketplace.me-south-1.amazonaws.com",
-        "sa-east-1": "metering.marketplace.sa-east-1.amazonaws.com"
+        "sa-east-1": "metering.marketplace.sa-east-1.amazonaws.com",
+        "ap-south-2": "metering.marketplace.ap-south-2.amazonaws.com",
+        "ap-southeast-3": "metering.marketplace.ap-southeast-3.amazonaws.com",
+        "ap-southeast-4": "metering.marketplace.ap-southeast-4.amazonaws.com",
+        "eu-south-2": "metering.marketplace.eu-south-2.amazonaws.com",
+        "eu-central-2": "metering.marketplace.eu-central-2.amazonaws.com",
+        "me-central-1": "metering.marketplace.me-central-1.amazonaws.com"
       }
     },
     "ram": {
@@ -1073,8 +1079,6 @@
         "af-south-1": "ram.af-south-1.amazonaws.com",
         "ap-northeast-2": "ram.ap-northeast-2.amazonaws.com",
         "ap-southeast-2": "ram.ap-southeast-2.amazonaws.com",
-        "cn-north-1": "ram.cn-north-1.amazonaws.com.cn",
-        "cn-northwest-1": "ram.cn-northwest-1.amazonaws.com.cn",
         "eu-south-1": "ram.eu-south-1.amazonaws.com",
         "eu-west-1": "ram.eu-west-1.amazonaws.com",
         "eu-west-3": "ram.eu-west-3.amazonaws.com",
@@ -1094,11 +1098,50 @@
         "ap-northeast-1": "ram.ap-northeast-1.amazonaws.com",
         "eu-central-1": "ram.eu-central-1.amazonaws.com",
         "il-central-1": "ram.il-central-1.amazonaws.com",
-        "eu-west-2": "ram.eu-west-2.amazonaws.com"
+        "eu-west-2": "ram.eu-west-2.amazonaws.com",
+        "me-central-1": "ram.me-central-1.amazonaws.com",
+        "eu-central-2": "ram.eu-central-2.amazonaws.com",
+        "eu-south-2": "ram.eu-south-2.amazonaws.com",
+        "ca-west-1": "ram.ca-west-1.amazonaws.com",
+        "ap-northeast-3": "ram.ap-northeast-3.amazonaws.com",
+        "ap-southeast-4": "ram.ap-southeast-4.amazonaws.com",
+        "ap-southeast-3": "ram.ap-southeast-3.amazonaws.com",
+        "ap-south-2": "ram.ap-south-2.amazonaws.com"
       }
     },
     "s3control": {
-      "endpoints": {}
+      "endpoints": {
+        "us-east-2": "s3-control.us-east-2.amazonaws.com",
+        "us-east-1": "s3-control.us-east-1.amazonaws.com",
+        "us-west-1": "s3-control.us-west-1.amazonaws.com",
+        "us-west-2": "s3-control.us-west-2.amazonaws.com",
+        "af-south-1": "s3-control.af-south-1.amazonaws.com",
+        "ap-east-1": "s3-control.ap-east-1.amazonaws.com",
+        "ap-south-2": "s3-control.ap-south-2.amazonaws.com",
+        "ap-southeast-3": "s3-control.ap-southeast-3.amazonaws.com",
+        "ap-southeast-4": "s3-control.ap-southeast-4.amazonaws.com",
+        "ap-south-1": "s3-control.ap-south-1.amazonaws.com",
+        "ap-northeast-3": "s3-control.ap-northeast-3.amazonaws.com",
+        "ap-northeast-2": "s3-control.ap-northeast-2.amazonaws.com",
+        "ap-southeast-1": "s3-control.ap-southeast-1.amazonaws.com",
+        "ap-southeast-2": "s3-control.ap-southeast-2.amazonaws.com",
+        "ap-northeast-1": "s3-control.ap-northeast-1.amazonaws.com",
+        "ca-central-1": "s3-control.ca-central-1.amazonaws.com",
+        "eu-central-1": "s3-control.eu-central-1.amazonaws.com",
+        "eu-west-1": "s3-control.eu-west-1.amazonaws.com",
+        "eu-west-2": "s3-control.eu-west-2.amazonaws.com",
+        "eu-south-1": "s3-control.eu-south-1.amazonaws.com",
+        "eu-west-3": "s3-control.eu-west-3.amazonaws.com",
+        "eu-south-2": "s3-control.eu-south-2.amazonaws.com",
+        "eu-north-1": "s3-control.eu-north-1.amazonaws.com",
+        "eu-central-2": "s3-control.eu-central-2.amazonaws.com",
+        "il-central-1": "s3-control.il-central-1.amazonaws.com",
+        "me-south-1": "s3-control.me-south-1.amazonaws.com",
+        "me-central-1": "s3-control.me-central-1.amazonaws.com",
+        "sa-east-1": "s3-control.sa-east-1.amazonaws.com",
+        "us-gov-east-1": "s3-control.us-gov-east-1.amazonaws.com",
+        "us-gov-west-1": "s3-control.us-gov-west-1.amazonaws.com"
+      }
     },
     "sso": {
       "endpoints": {
@@ -1115,7 +1158,23 @@
         "us-west-2": "sso.us-west-2.amazonaws.com",
         "ap-south-1": "sso.ap-south-1.amazonaws.com",
         "ca-central-1": "sso.ca-central-1.amazonaws.com",
-        "eu-west-2": "sso.eu-west-2.amazonaws.com"
+        "eu-west-2": "sso.eu-west-2.amazonaws.com",
+        "us-west-1": "sso.us-west-1.amazonaws.com",
+        "af-south-1": "sso.af-south-1.amazonaws.com",
+        "ap-east-1": "sso.ap-east-1.amazonaws.com",
+        "ap-south-2": "sso.ap-south-2.amazonaws.com",
+        "ap-southeast-3": "sso.ap-southeast-3.amazonaws.com",
+        "ap-southeast-4": "sso.ap-southeast-4.amazonaws.com",
+        "ap-northeast-3": "sso.ap-northeast-3.amazonaws.com",
+        "eu-south-1": "sso.eu-south-1.amazonaws.com",
+        "eu-west-3": "sso.eu-west-3.amazonaws.com",
+        "eu-south-2": "sso.eu-south-2.amazonaws.com",
+        "eu-central-2": "sso.eu-central-2.amazonaws.com",
+        "me-south-1": "sso.me-south-1.amazonaws.com",
+        "me-central-1": "sso.me-central-1.amazonaws.com",
+        "sa-east-1": "sso.sa-east-1.amazonaws.com",
+        "us-gov-east-1": "sso.us-gov-east-1.amazonaws.com",
+        "us-gov-west-1": "sso.us-gov-west-1.amazonaws.com"
       }
     },
     "vmwarecloudonaws": {
@@ -1125,7 +1184,8 @@
       "endpoints": {
         "us-east-1": "braket.us-east-1.amazonaws.com",
         "us-west-1": "braket.us-west-1.amazonaws.com",
-        "us-west-2": "braket.us-west-2.amazonaws.com"
+        "us-west-2": "braket.us-west-2.amazonaws.com",
+        "eu-west-2": "braket.eu-west-2.amazonaws.com"
       }
     },
     "cloudsearch": {
@@ -1135,7 +1195,6 @@
         "ap-southeast-1": "cloudsearch.ap-southeast-1.amazonaws.com",
         "ap-southeast-2": "cloudsearch.ap-southeast-2.amazonaws.com",
         "eu-central-1": "cloudsearch.eu-central-1.amazonaws.com",
-        "il-central-1": "cloudsearch.il-central-1.amazonaws.com",
         "eu-west-1": "cloudsearch.eu-west-1.amazonaws.com",
         "sa-east-1": "cloudsearch.sa-east-1.amazonaws.com",
         "us-east-1": "cloudsearch.us-east-1.amazonaws.com",
@@ -1161,7 +1220,20 @@
         "il-central-1": "compute-optimizer.il-central-1.amazonaws.com",
         "eu-west-2": "compute-optimizer.eu-west-2.amazonaws.com",
         "sa-east-1": "compute-optimizer.sa-east-1.amazonaws.com",
-        "us-west-1": "compute-optimizer.us-west-1.amazonaws.com"
+        "us-west-1": "compute-optimizer.us-west-1.amazonaws.com",
+        "af-south-1": "compute-optimizer.af-south-1.amazonaws.com",
+        "ap-east-1": "compute-optimizer.ap-east-1.amazonaws.com",
+        "ap-south-2": "compute-optimizer.ap-south-2.amazonaws.com",
+        "ap-southeast-3": "compute-optimizer.ap-southeast-3.amazonaws.com",
+        "ap-southeast-4": "compute-optimizer.ap-southeast-4.amazonaws.com",
+        "ap-northeast-3": "compute-optimizer.ap-northeast-3.amazonaws.com",
+        "eu-south-1": "compute-optimizer.eu-south-1.amazonaws.com",
+        "eu-south-2": "compute-optimizer.eu-south-2.amazonaws.com",
+        "eu-central-2": "compute-optimizer.eu-central-2.amazonaws.com",
+        "me-south-1": "compute-optimizer.me-south-1.amazonaws.com",
+        "me-central-1": "compute-optimizer.me-central-1.amazonaws.com",
+        "us-gov-east-1": "compute-optimizer-fips.us-gov-east-1.amazonaws.com",
+        "us-gov-west-1": "compute-optimizer-fips.us-gov-west-1.amazonaws.com"
       }
     },
     "deepcomposer": {
@@ -1223,12 +1295,21 @@
         "eu-south-1": "mq.eu-south-1.amazonaws.com",
         "eu-west-3": "mq.eu-west-3.amazonaws.com",
         "me-south-1": "mq.me-south-1.amazonaws.com",
-        "sa-east-1": "mq.sa-east-1.amazonaws.com"
+        "sa-east-1": "mq.sa-east-1.amazonaws.com",
+        "af-south-1": "mq.af-south-1.amazonaws.com",
+        "ap-south-2": "mq.ap-south-2.amazonaws.com",
+        "ap-southeast-3": "mq.ap-southeast-3.amazonaws.com",
+        "ap-southeast-4": "mq.ap-southeast-4.amazonaws.com",
+        "ap-northeast-3": "mq.ap-northeast-3.amazonaws.com",
+        "eu-south-2": "mq.eu-south-2.amazonaws.com",
+        "eu-central-2": "mq.eu-central-2.amazonaws.com",
+        "me-central-1": "mq.me-central-1.amazonaws.com",
+        "us-gov-east-1": "mq.us-gov-east-1.amazonaws.com",
+        "us-gov-west-1": "mq.us-gov-west-1.amazonaws.com"
       }
     },
     "resourcegroupstaggingapi": {
       "endpoints": {
-        "af-south-1": "tagging.af-south-1.amazonaws.com",
         "ap-northeast-2": "tagging.ap-northeast-2.amazonaws.com",
         "ap-south-1": "tagging.ap-south-1.amazonaws.com",
         "ap-southeast-1": "tagging.ap-southeast-1.amazonaws.com",
@@ -1236,23 +1317,14 @@
         "eu-west-2": "tagging.eu-west-2.amazonaws.com",
         "sa-east-1": "tagging.sa-east-1.amazonaws.com",
         "us-east-1": "tagging.us-east-1.amazonaws.com",
-        "us-gov-east-1": "tagging.us-gov-east-1.amazonaws.com",
         "us-west-2": "tagging.us-west-2.amazonaws.com",
-        "ap-east-1": "tagging.ap-east-1.amazonaws.com",
-        "ap-northeast-3": "tagging.ap-northeast-3.amazonaws.com",
         "ca-central-1": "tagging.ca-central-1.amazonaws.com",
         "eu-central-1": "tagging.eu-central-1.amazonaws.com",
-        "il-central-1": "tagging.il-central-1.amazonaws.com",
         "eu-north-1": "tagging.eu-north-1.amazonaws.com",
-        "eu-south-1": "tagging.eu-south-1.amazonaws.com",
         "eu-west-3": "tagging.eu-west-3.amazonaws.com",
-        "me-south-1": "tagging.me-south-1.amazonaws.com",
         "us-east-2": "tagging.us-east-2.amazonaws.com",
-        "us-west-1": "tagging.us-west-1.amazonaws.com",
         "ap-northeast-1": "tagging.ap-northeast-1.amazonaws.com",
         "ap-southeast-2": "tagging.ap-southeast-2.amazonaws.com",
-        "cn-north-1": "tagging.cn-north-1.amazonaws.com.cn",
-        "cn-northwest-1": "tagging.cn-northwest-1.amazonaws.com.cn",
         "us-gov-west-1": "tagging.us-gov-west-1.amazonaws.com"
       }
     },
@@ -1262,7 +1334,6 @@
         "ap-east-1": "sqs.ap-east-1.amazonaws.com",
         "ap-northeast-2": "sqs.ap-northeast-2.amazonaws.com",
         "ap-southeast-1": "sqs.ap-southeast-1.amazonaws.com",
-        "cn-north-1": "sqs.cn-north-1.amazonaws.com.cn",
         "eu-west-1": "sqs.eu-west-1.amazonaws.com",
         "eu-west-3": "sqs.eu-west-3.amazonaws.com",
         "us-east-1": "sqs.us-east-1.amazonaws.com",
@@ -1272,7 +1343,6 @@
         "ap-northeast-3": "sqs.ap-northeast-3.amazonaws.com",
         "ap-south-1": "sqs.ap-south-1.amazonaws.com",
         "ca-central-1": "sqs.ca-central-1.amazonaws.com",
-        "cn-northwest-1": "sqs.cn-northwest-1.amazonaws.com.cn",
         "eu-north-1": "sqs.eu-north-1.amazonaws.com",
         "eu-west-2": "sqs.eu-west-2.amazonaws.com",
         "me-south-1": "sqs.me-south-1.amazonaws.com",
@@ -1283,7 +1353,14 @@
         "il-central-1": "sqs.il-central-1.amazonaws.com",
         "eu-south-1": "sqs.eu-south-1.amazonaws.com",
         "us-gov-west-1": "sqs.us-gov-west-1.amazonaws.com",
-        "us-west-2": "sqs.us-west-2.amazonaws.com"
+        "us-west-2": "sqs.us-west-2.amazonaws.com",
+        "me-central-1": "sqs.me-central-1.amazonaws.com",
+        "eu-central-2": "sqs.eu-central-2.amazonaws.com",
+        "eu-south-2": "sqs.eu-south-2.amazonaws.com",
+        "ca-west-1": "sqs.ca-west-1.amazonaws.com",
+        "ap-southeast-4": "sqs.ap-southeast-4.amazonaws.com",
+        "ap-southeast-3": "sqs.ap-southeast-3.amazonaws.com",
+        "ap-south-2": "sqs.ap-south-2.amazonaws.com"
       }
     },
     "waf": {
@@ -1310,7 +1387,14 @@
         "us-gov-east-1": "wafv2.us-gov-east-1.amazonaws.com",
         "us-west-2": "wafv2.us-west-2.amazonaws.com",
         "ap-south-1": "wafv2.ap-south-1.amazonaws.com",
-        "eu-south-1": "wafv2.eu-south-1.amazonaws.com"
+        "eu-south-1": "wafv2.eu-south-1.amazonaws.com",
+        "ap-south-2": "wafv2.ap-south-2.amazonaws.com",
+        "ap-southeast-3": "wafv2.ap-southeast-3.amazonaws.com",
+        "ap-southeast-4": "wafv2.ap-southeast-4.amazonaws.com",
+        "ap-northeast-3": "wafv2.ap-northeast-3.amazonaws.com",
+        "eu-south-2": "wafv2.eu-south-2.amazonaws.com",
+        "eu-central-2": "wafv2.eu-central-2.amazonaws.com",
+        "me-central-1": "wafv2.me-central-1.amazonaws.com"
       }
     },
     "apigateway": {
@@ -5215,6 +5299,27 @@
     },
     "us-west-2": {
       "name": "US West (Oregon)"
+    },
+    "ap-south-2": {
+      "name": "Asia Pacific (Hyderabad)"
+    },
+    "ap-southeast-3": {
+      "name": "Asia Pacific (Jakarta)"
+    },
+    "ap-southeast-4": {
+      "name": "Asia Pacific (Melbourne)"
+    },
+    "ca-west-1": {
+      "name": "Canada West (Calgary)"
+    },
+    "eu-south-2": {
+      "name": "Europe (Spain)"
+    },
+    "eu-central-2": {
+      "name": "Europe (Zurich)"
+    },
+    "me-central-1": {
+      "name": "Middle East (UAE)"
     }
   }
 }
