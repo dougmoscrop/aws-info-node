@@ -1050,6 +1050,59 @@
         "us-gov-west-1": "redshift-data.us-gov-west-1.amazonaws.com"
       }
     },
+    "redshift-serverless": {
+      "endpoints": {
+        "us-east-2": "redshift-serverless.us-east-2.amazonaws.com",
+        "us-east-1": "redshift-serverless.us-east-1.amazonaws.com",
+        "us-west-1": "redshift-serverless.us-west-1.amazonaws.com",
+        "us-west-2": "redshift-serverless.us-west-2.amazonaws.com",
+        "ap-south-1": "redshift-serverless.ap-south-1.amazonaws.com",
+        "ap-northeast-2": "redshift-serverless.ap-northeast-2.amazonaws.com",
+        "ap-southeast-1": "redshift-serverless.ap-southeast-1.amazonaws.com",
+        "ap-southeast-2": "redshift-serverless.ap-southeast-2.amazonaws.com",
+        "ap-northeast-1": "redshift-serverless.ap-northeast-1.amazonaws.com",
+        "ca-central-1": "redshift-serverless.ca-central-1.amazonaws.com",
+        "eu-central-1": "redshift-serverless.eu-central-1.amazonaws.com",
+        "eu-west-1": "redshift-serverless.eu-west-1.amazonaws.com",
+        "eu-west-2": "redshift-serverless.eu-west-2.amazonaws.com",
+        "eu-west-3": "redshift-serverless.eu-west-3.amazonaws.com",
+        "eu-north-1": "redshift-serverless.eu-north-1.amazonaws.com"
+      }
+    },
+    "sqlworkbench": {
+      "endpoints": {
+        "us-east-2": "sqlworkbench.us-east-2.amazonaws.com",
+        "us-east-1": "sqlworkbench.us-east-1.amazonaws.com",
+        "us-west-1": "sqlworkbench.us-west-1.amazonaws.com",
+        "us-west-2": "sqlworkbench.us-west-2.amazonaws.com",
+        "af-south-1": "sqlworkbench.af-south-1.amazonaws.com",
+        "ap-east-1": "sqlworkbench.ap-east-1.amazonaws.com",
+        "ap-south-2": "sqlworkbench.ap-south-2.amazonaws.com",
+        "ap-southeast-3": "sqlworkbench.ap-southeast-3.amazonaws.com",
+        "ap-southeast-4": "sqlworkbench.ap-southeast-4.amazonaws.com",
+        "ap-south-1": "sqlworkbench.ap-south-1.amazonaws.com",
+        "ap-northeast-3": "sqlworkbench.ap-northeast-3.amazonaws.com",
+        "ap-northeast-2": "sqlworkbench.ap-northeast-2.amazonaws.com",
+        "ap-southeast-1": "sqlworkbench.ap-southeast-1.amazonaws.com",
+        "ap-southeast-2": "sqlworkbench.ap-southeast-2.amazonaws.com",
+        "ap-northeast-1": "sqlworkbench.ap-northeast-1.amazonaws.com",
+        "ca-central-1": "sqlworkbench.ca-central-1.amazonaws.com",
+        "eu-central-1": "sqlworkbench.eu-central-1.amazonaws.com",
+        "eu-west-1": "sqlworkbench.eu-west-1.amazonaws.com",
+        "eu-west-2": "sqlworkbench.eu-west-2.amazonaws.com",
+        "eu-south-1": "sqlworkbench.eu-south-1.amazonaws.com",
+        "eu-west-3": "sqlworkbench.eu-west-3.amazonaws.com",
+        "eu-south-2": "sqlworkbench.eu-south-2.amazonaws.com",
+        "eu-north-1": "sqlworkbench.eu-north-1.amazonaws.com",
+        "eu-central-2": "sqlworkbench.eu-central-2.amazonaws.com",
+        "il-central-1": "sqlworkbench.il-central-1.amazonaws.com",
+        "me-south-1": "sqlworkbench.me-south-1.amazonaws.com",
+        "me-central-1": "sqlworkbench.me-central-1.amazonaws.com",
+        "sa-east-1": "sqlworkbench.sa-east-1.amazonaws.com",
+        "us-gov-east-1": "sqlworkbench.us-gov-east-1.amazonaws.com",
+        "us-gov-west-1": "sqlworkbench.us-gov-west-1.amazonaws.com"
+      }
+    },
     "dataexchange": {
       "endpoints": {
         "us-east-2": "dataexchange.us-east-2.amazonaws.com",
@@ -1098,6 +1151,40 @@
         "sa-east-1": "es.sa-east-1.amazonaws.com",
         "us-gov-east-1": "es.us-gov-east-1.amazonaws.com",
         "us-gov-west-1": "es.us-gov-west-1.amazonaws.com"
+      }
+    },
+    "aoss": {
+      "endpoints": {
+        "us-east-2": "aoss.us-east-2.amazonaws.com",
+        "us-east-1": "aoss.us-east-1.amazonaws.com",
+        "us-west-2": "aoss.us-west-2.amazonaws.com",
+        "ap-south-1": "aoss.ap-south-1.amazonaws.com",
+        "ap-southeast-1": "aoss.ap-southeast-1.amazonaws.com",
+        "ap-southeast-2": "aoss.ap-southeast-2.amazonaws.com",
+        "ap-northeast-1": "aoss.ap-northeast-1.amazonaws.com",
+        "eu-central-1": "aoss.eu-central-1.amazonaws.com",
+        "eu-west-1": "aoss.eu-west-1.amazonaws.com",
+        "eu-west-2": "aoss.eu-west-2.amazonaws.com",
+        "eu-west-3": "aoss.eu-west-3.amazonaws.com"
+      }
+    },
+    "osis": {
+      "endpoints": {
+        "us-east-2": "osis.us-east-2.amazonaws.com",
+        "us-east-1": "osis.us-east-1.amazonaws.com",
+        "us-west-1": "osis.us-west-1.amazonaws.com",
+        "us-west-2": "osis.us-west-2.amazonaws.com",
+        "ap-south-1": "osis.ap-south-1.amazonaws.com",
+        "ap-northeast-2": "osis.ap-northeast-2.amazonaws.com",
+        "ap-southeast-1": "osis.ap-southeast-1.amazonaws.com",
+        "ap-southeast-2": "osis.ap-southeast-2.amazonaws.com",
+        "ap-northeast-1": "osis.ap-northeast-1.amazonaws.com",
+        "ca-central-1": "osis.ca-central-1.amazonaws.com",
+        "eu-central-1": "osis.eu-central-1.amazonaws.com",
+        "eu-west-1": "osis.eu-west-1.amazonaws.com",
+        "eu-west-2": "osis.eu-west-2.amazonaws.com",
+        "eu-north-1": "osis.eu-north-1.amazonaws.com",
+        "sa-east-1": "osis.sa-east-1.amazonaws.com"
       }
     },
     "firehose": {
