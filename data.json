@@ -5172,9 +5172,7 @@
         "il-central-1": "connect.il-central-1.amazonaws.com",
         "eu-west-2": "connect.eu-west-2.amazonaws.com",
         "us-east-1": "connect.us-east-1.amazonaws.com",
-        "us-east-1-fips": "connect-fips.us-east-1.amazonaws.com",
         "us-west-2": "connect.us-west-2.amazonaws.com",
-        "us-west-2-fips": "connect-fips.us-west-2.amazonaws.com",
         "us-gov-west-1": "connect.us-gov-west-1.amazonaws.com"
       }
     },
@@ -5762,7 +5760,6 @@
         "ap-southeast-2": "codecommit.ap-southeast-2.amazonaws.com",
         "ap-southeast-3": "codecommit.ap-southeast-3.amazonaws.com",
         "ca-central-1": "codecommit.ca-central-1.amazonaws.com",
-        "ca-central-1-fips": "codecommit-fips.ca-central-1.amazonaws.com",
         "eu-central-1": "codecommit.eu-central-1.amazonaws.com",
         "eu-north-1": "codecommit.eu-north-1.amazonaws.com",
         "eu-south-1": "codecommit.eu-south-1.amazonaws.com",
@@ -5774,17 +5771,11 @@
         "me-south-1": "codecommit.me-south-1.amazonaws.com",
         "sa-east-1": "codecommit.sa-east-1.amazonaws.com",
         "us-east-1": "codecommit.us-east-1.amazonaws.com",
-        "us-east-1-fips": "codecommit-fips.us-east-1.amazonaws.com",
         "us-east-2": "codecommit.us-east-2.amazonaws.com",
-        "us-east-2-fips": "codecommit-fips.us-east-2.amazonaws.com",
         "us-gov-east-1": "codecommit.us-gov-east-1.amazonaws.com",
-        "us-gov-east-1-fips": "codecommit-fips.us-gov-east-1.amazonaws.com",
         "us-gov-west-1": "codecommit.us-gov-west-1.amazonaws.com",
-        "us-gov-west-1-fips": "codecommit-fips.us-gov-west-1.amazonaws.com",
         "us-west-1": "codecommit.us-west-1.amazonaws.com",
-        "us-west-1-fips": "codecommit-fips.us-west-1.amazonaws.com",
-        "us-west-2": "codecommit.us-west-2.amazonaws.com",
-        "us-west-2-fips": "codecommit-fips.us-west-2.amazonaws.com"
+        "us-west-2": "codecommit.us-west-2.amazonaws.com"
       }
     },
     "cognito-sync": {
