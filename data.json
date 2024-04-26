@@ -19,7 +19,8 @@
         "eu-west-3": "codestar-connections.eu-west-3.amazonaws.com",
         "eu-north-1": "codestar-connections.eu-north-1.amazonaws.com",
         "sa-east-1": "codestar-connections.sa-east-1.amazonaws.com",
-        "us-gov-east-1": "codestar-connections.us-gov-east-1.amazonaws.com"
+        "us-gov-east-1": "codestar-connections.us-gov-east-1.amazonaws.com",
+        "il-central-1": "codestar-connections.il-central-1.amazonaws.com"
       }
     },
     "datasync": {
@@ -162,7 +163,8 @@
         "us-east-1": "opsworks-cm.us-east-1.amazonaws.com",
         "us-east-2": "opsworks-cm.us-east-2.amazonaws.com",
         "us-west-1": "opsworks-cm.us-west-1.amazonaws.com",
-        "us-west-2": "opsworks-cm.us-west-2.amazonaws.com"
+        "us-west-2": "opsworks-cm.us-west-2.amazonaws.com",
+        "il-central-1": "opsworks-cm.il-central-1.amazonaws.com"
       }
     },
     "route53": {
@@ -195,7 +197,8 @@
         "us-east-1": "route53.amazonaws.com",
         "us-east-2": "route53.amazonaws.com",
         "us-west-1": "route53.amazonaws.com",
-        "us-west-2": "route53.amazonaws.com"
+        "us-west-2": "route53.amazonaws.com",
+        "cn-northwest-1": "route53.amazonaws.com.cn"
       }
     },
     "translate": {
@@ -216,7 +219,8 @@
         "us-east-2": "translate.us-east-2.amazonaws.com",
         "us-gov-west-1": "translate.us-gov-west-1.amazonaws.com",
         "us-west-1": "translate.us-west-1.amazonaws.com",
-        "us-west-2": "translate.us-west-2.amazonaws.com"
+        "us-west-2": "translate.us-west-2.amazonaws.com",
+        "il-central-1": "translate.il-central-1.amazonaws.com"
       }
     },
     "worklink": {
@@ -397,7 +401,8 @@
         "me-central-1": "api.sagemaker.me-central-1.amazonaws.com",
         "sa-east-1": "api.sagemaker.sa-east-1.amazonaws.com",
         "us-gov-east-1": "api.sagemaker.us-gov-east-1.amazonaws.com",
-        "us-gov-west-1": "api.sagemaker.us-gov-west-1.amazonaws.com"
+        "us-gov-west-1": "api.sagemaker.us-gov-west-1.amazonaws.com",
+        "cn-northwest-1": "api.sagemaker.cn-northwest-1.amazonaws.com.cn"
       }
     },
     "sagemaker-edge": {
