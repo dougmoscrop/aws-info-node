@@ -2624,38 +2624,6 @@
         "me-south-1": "cognito-identity.me-south-1.amazonaws.com"
       }
     },
-    "cognito-user-pools": {
-      "endpoints": {
-        "us-east-1": "cognito-idp.us-east-1.amazonaws.com",
-        "us-east-2": "cognito-idp.us-east-2.amazonaws.com",
-        "us-west-2": "cognito-idp.us-west-2.amazonaws.com",
-        "us-west-1": "cognito-idp.us-west-1.amazonaws.com",
-        "ap-south-1": "cognito-idp.ap-south-1.amazonaws.com",
-        "af-south-1": "cognito-idp.af-south-1.amazonaws.com",
-        "ap-south-2": "cognito-idp.ap-south-2.amazonaws.com",
-        "ap-southeast-3": "cognito-idp.ap-southeast-3.amazonaws.com",
-        "ap-southeast-4": "cognito-idp.ap-southeast-4.amazonaws.com",
-        "ap-northeast-3": "cognito-idp.ap-northeast-3.amazonaws.com",
-        "ap-northeast-2": "cognito-idp.ap-northeast-2.amazonaws.com",
-        "ap-northeast-1": "cognito-idp.ap-northeast-1.amazonaws.com",
-        "ap-southeast-1": "cognito-idp.ap-southeast-1.amazonaws.com",
-        "ap-southeast-2": "cognito-idp.ap-southeast-2.amazonaws.com",
-        "ca-central-1": "cognito-idp.ca-central-1.amazonaws.com",
-        "eu-central-1": "cognito-idp.eu-central-1.amazonaws.com",
-        "eu-west-1": "cognito-idp.eu-west-1.amazonaws.com",
-        "eu-west-2": "cognito-idp.eu-west-2.amazonaws.com",
-        "eu-west-3": "cognito-idp.eu-west-3.amazonaws.com",
-        "eu-north-1": "cognito-idp.eu-north-1.amazonaws.com",
-        "eu-south-1": "cognito-idp.eu-south-1.amazonaws.com",
-        "eu-south-2": "cognito-idp.eu-south-2.amazonaws.com",
-        "eu-central-2": "cognito-idp.eu-central-2.amazonaws.com",
-        "me-central-1": "cognito-idp.me-central-1.amazonaws.com",
-        "me-south-1": "cognito-idp.me-south-1.amazonaws.com",
-        "il-central-1": "cognito-idp.il-central-1.amazonaws.com",
-        "sa-east-1": "cognito-idp.sa-east-1.amazonaws.com",
-        "us-gov-west-1": "cognito-idp.us-gov-west-1.amazonaws.com"
-      }
-    },
     "datapipeline": {
       "endpoints": {
         "ap-northeast-1": "datapipeline.ap-northeast-1.amazonaws.com",
@@ -2687,7 +2655,16 @@
         "eu-north-1": "fms.eu-north-1.amazonaws.com",
         "eu-west-3": "fms.eu-west-3.amazonaws.com",
         "sa-east-1": "fms.sa-east-1.amazonaws.com",
-        "us-west-2": "fms.us-west-2.amazonaws.com"
+        "us-west-2": "fms.us-west-2.amazonaws.com",
+        "ap-south-2": "fms.ap-south-2.amazonaws.com",
+        "ap-southeast-3": "fms.ap-southeast-3.amazonaws.com",
+        "ap-southeast-4": "fms.ap-southeast-4.amazonaws.com",
+        "ap-northeast-3": "fms.ap-northeast-3.amazonaws.com",
+        "eu-south-2": "fms.eu-south-2.amazonaws.com",
+        "eu-central-2": "fms.eu-central-2.amazonaws.com",
+        "me-central-1": "fms.me-central-1.amazonaws.com",
+        "us-gov-east-1": "fms.us-gov-east-1.amazonaws.com",
+        "us-gov-west-1": "fms.us-gov-west-1.amazonaws.com"
       }
     },
     "kinesis": {
@@ -6047,24 +6024,34 @@
     },
     "cognito-idp": {
       "endpoints": {
-        "ap-northeast-1": "cognito-idp.ap-northeast-1.amazonaws.com",
-        "ap-northeast-2": "cognito-idp.ap-northeast-2.amazonaws.com",
+        "us-east-1": "cognito-idp.us-east-1.amazonaws.com",
+        "us-east-2": "cognito-idp.us-east-2.amazonaws.com",
+        "us-west-2": "cognito-idp.us-west-2.amazonaws.com",
+        "us-west-1": "cognito-idp.us-west-1.amazonaws.com",
         "ap-south-1": "cognito-idp.ap-south-1.amazonaws.com",
+        "af-south-1": "cognito-idp.af-south-1.amazonaws.com",
+        "ap-south-2": "cognito-idp.ap-south-2.amazonaws.com",
+        "ap-southeast-3": "cognito-idp.ap-southeast-3.amazonaws.com",
+        "ap-southeast-4": "cognito-idp.ap-southeast-4.amazonaws.com",
+        "ap-northeast-3": "cognito-idp.ap-northeast-3.amazonaws.com",
+        "ap-northeast-2": "cognito-idp.ap-northeast-2.amazonaws.com",
+        "ap-northeast-1": "cognito-idp.ap-northeast-1.amazonaws.com",
         "ap-southeast-1": "cognito-idp.ap-southeast-1.amazonaws.com",
         "ap-southeast-2": "cognito-idp.ap-southeast-2.amazonaws.com",
-        "eu-north-1": "cognito-idp.eu-north-1.amazonaws.com",
-        "eu-west-3": "cognito-idp.eu-west-3.amazonaws.com",
-        "sa-east-1": "cognito-idp.sa-east-1.amazonaws.com",
-        "us-east-2": "cognito-idp.us-east-2.amazonaws.com",
-        "us-west-1": "cognito-idp.us-west-1.amazonaws.com",
         "ca-central-1": "cognito-idp.ca-central-1.amazonaws.com",
         "eu-central-1": "cognito-idp.eu-central-1.amazonaws.com",
-        "il-central-1": "cognito-idp.il-central-1.amazonaws.com",
         "eu-west-1": "cognito-idp.eu-west-1.amazonaws.com",
         "eu-west-2": "cognito-idp.eu-west-2.amazonaws.com",
-        "us-east-1": "cognito-idp.us-east-1.amazonaws.com",
-        "us-gov-west-1": "cognito-idp.us-gov-west-1.amazonaws.com",
-        "us-west-2": "cognito-idp.us-west-2.amazonaws.com"
+        "eu-west-3": "cognito-idp.eu-west-3.amazonaws.com",
+        "eu-north-1": "cognito-idp.eu-north-1.amazonaws.com",
+        "eu-south-1": "cognito-idp.eu-south-1.amazonaws.com",
+        "eu-south-2": "cognito-idp.eu-south-2.amazonaws.com",
+        "eu-central-2": "cognito-idp.eu-central-2.amazonaws.com",
+        "me-central-1": "cognito-idp.me-central-1.amazonaws.com",
+        "me-south-1": "cognito-idp.me-south-1.amazonaws.com",
+        "il-central-1": "cognito-idp.il-central-1.amazonaws.com",
+        "sa-east-1": "cognito-idp.sa-east-1.amazonaws.com",
+        "us-gov-west-1": "cognito-idp.us-gov-west-1.amazonaws.com"
       }
     },
     "costexplorer": {
