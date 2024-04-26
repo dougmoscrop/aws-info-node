@@ -3577,28 +3577,6 @@
         "ca-central-1": "mediapackage.ca-central-1.amazonaws.com"
       }
     },
-    "mediapackagev2": {
-      "endpoints": {
-        "us-east-2": "mediapackagev2.us-east-2.amazonaws.com",
-        "us-east-1": "mediapackagev2.us-east-1.amazonaws.com",
-        "us-west-1": "mediapackagev2.us-west-1.amazonaws.com",
-        "us-west-2": "mediapackagev2.us-west-2.amazonaws.com",
-        "ap-southeast-4": "mediapackagev2.ap-southeast-4.amazonaws.com",
-        "ap-south-1": "mediapackagev2.ap-south-1.amazonaws.com",
-        "ap-northeast-3": "mediapackagev2.ap-northeast-3.amazonaws.com",
-        "ap-northeast-2": "mediapackagev2.ap-northeast-2.amazonaws.com",
-        "ap-southeast-1": "mediapackagev2.ap-southeast-1.amazonaws.com",
-        "ap-southeast-2": "mediapackagev2.ap-southeast-2.amazonaws.com",
-        "ap-northeast-1": "mediapackagev2.ap-northeast-1.amazonaws.com",
-        "ca-central-1": "mediapackagev2.ca-central-1.amazonaws.com",
-        "eu-central-1": "mediapackagev2.eu-central-1.amazonaws.com",
-        "eu-west-1": "mediapackagev2.eu-west-1.amazonaws.com",
-        "eu-west-2": "mediapackagev2.eu-west-2.amazonaws.com",
-        "eu-west-3": "mediapackagev2.eu-west-3.amazonaws.com",
-        "eu-north-1": "mediapackagev2.eu-north-1.amazonaws.com",
-        "sa-east-1": "mediapackagev2.sa-east-1.amazonaws.com"
-      }
-    },
     "route53resolver": {
       "endpoints": {
         "af-south-1": "route53resolver.af-south-1.amazonaws.com",
@@ -4025,11 +4003,6 @@
       "endpoints": {
         "ap-northeast-3": "marketplace.ap-northeast-3.amazonaws.com",
         "us-west-1": "marketplace.us-west-1.amazonaws.com"
-      }
-    },
-    "marketplace-catalog": {
-      "endpoints": {
-        "us-east-1": "catalog.marketplace.us-east-1.amazonaws.com"
       }
     },
     "route53domains": {
