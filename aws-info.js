@@ -1,6 +1,6 @@
 'use strict';
 
-const data= require('./data.json');
+const data = require('./data.json');
 
 const { services, regions } = data;
 

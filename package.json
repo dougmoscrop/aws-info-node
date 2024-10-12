@@ -5,8 +5,7 @@
   "main": "aws-info.js",
   "scripts": {
     "build": "node src/build.js",
-    "test": "ava",
-    "posttest": "eslint ."
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -22,15 +21,9 @@
   },
   "homepage": "https://github.com/dougmoscrop/aws-info-node#readme",
   "devDependencies": {
-    "ava": "^3.15.0",
-    "aws-sdk": "^2.853.0",
+    "ava": "^6.1.3",
+    "aws-sdk": "^2.1691.0",
     "chunk": "0.0.3",
-    "dread": "^2.3.0",
-    "eslint": "^7.20.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.3.1",
-    "eslint-plugin-standard": "^5.0.0"
+    "dread": "^2.3.0"
   }
 }
