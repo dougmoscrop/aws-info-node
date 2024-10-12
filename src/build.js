@@ -95,6 +95,8 @@ async function getEndpoints(service, regions) {
 async function getServiceInfo() {
     const services = await getServices();
 
+    console.log('Got services..')
+
     const details = [];
 
     for (const service of services) {
